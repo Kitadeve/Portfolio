@@ -146,3 +146,16 @@ h2{
 	font-size: 2em;
 	font-weight: 700;
 }
+.apropos{
+	display: flex;
+}
+
+.item__right{
+	display: flex;
+	max-width: 50%;
+}
+.item__left img{
+	border-radius: 50%;
+	background-color: #AAA69C;
+	max-width: 100%;
+}

@@ -1,0 +1,148 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+a{
+	color:black;
+	text-decoration: none;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ 
+svg {
+	width: 24px;
+}
+
+section{
+	margin-top: 20px;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+header{
+	display:flex;
+	align-items: center; /* Vertically center the items */
+    justify-content: space-between; /* Space out the items */
+	background-color: beige;
+	padding: 20px 40px;
+
+}
+
+.nom{
+	text-align: center;
+}
+.navbar ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 5px;
+}
+
+.navbar li{
+	padding: 5px;
+	font-size: 0.8em;
+}
+
+.socials ul{
+	display: flex;
+	margin: 0px 5px;
+}
+
+.socials li{
+	padding: 10px;
+}
+
+.hero{
+	display: flex;
+	
+}
+
+/* h2{
+	margin-bottom:10px;
+}
+
+p{
+	margin: 5px;
+} */
+.hero__item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 50%;
+	
+}
+
+.hero__item img{
+	max-width: 100%;
+	border: 1px solid black;
+	border-radius: 50%;
+	margin-left: 40;
+}
+
+.left{
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.hero__item .texte{
+	display: flex;
+	flex-direction: column;
+	
+	max-width: 60%;
+	margin-left: 0px 40px;
+}
+
+.hero__item .texte span, h2, p{
+	margin-right: 40px;
+	margin-bottom:20px;
+	text-align: center;
+
+}
+
+h2{
+	font-size: 2em;
+	font-weight: 700;
+}
